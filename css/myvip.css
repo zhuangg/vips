@@ -91,6 +91,10 @@
     border-radius: 0;
     margin: 0;
 }
+.star-ul li.activeli{
+    background: #A07452;
+    color: #FFFAEE;
+}
 .star-ul li.activestar img{
     display: inline-block;
     width: 3.45rem;
