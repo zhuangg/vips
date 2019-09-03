@@ -100,6 +100,11 @@
             console.log($(this).index());
             $('.select').find('li').addClass('hide');
             $('.select').find('li').eq($(this).index()).removeClass('hide');
+            if($(this).hasClass('activestar')){
+                $(this).siblings('li').removeClass('activeli')
+            } else {
+                $(this).addClass('activeli').siblings('li').removeClass('activeli')
+            }
         });
 
     })
