@@ -1,0 +1,222 @@
+
+.clear{
+    clear: both;
+}
+.head{
+    width: 100%;
+    /*height: 14.1rem;*/
+    background: #FAFAFA;
+}
+.tips{
+    color: #333;
+    font-size: .6rem;
+    height: .85rem;
+    line-height: .85rem;
+    margin: .6rem .75rem .4rem;
+}
+.tips span{
+    display: inline-block;
+    width: .8rem;
+    height: .8rem;
+    background: url("../img/messicon.png");
+    background-size: 100%;
+    float: left;
+}
+.star-box{
+    width: 100%;
+    height: 10.15rem;
+    background: url("../img/cardbg.png");
+    background-size: 100% 100%;
+    position: relative;
+}
+.starinfo{
+    position: absolute;
+    top: .5rem;
+    right: 1.5rem;
+    /*float: right;*/
+    font-size: .6rem;
+    color: #6F452C;
+    float: left;
+    height: .85rem;
+    line-height: .9rem;
+}
+.starinfo span{
+    width: .8rem;
+    height: .8rem;
+    line-height: .8rem;
+    display: inline-block;
+    background: url("../img/infoicon.png");
+    background-size: 100% 100%;
+    float: left;
+}
+.star-ul{
+    width: calc(100% - 1.5rem);
+    height: 5.9rem;
+    margin: 0 auto .8rem;
+    padding: 1.7rem .2rem 0;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.star-ul:after{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 100%;
+    height: .1rem;
+    /*background: #FFFAEE;*/
+    top: 3.8rem;
+    background: url("../img/x4.png");
+    background-size: 100% 100%;
+}
+.star-ul li{
+    /*width: 18%;*/
+    width: 1.9rem;
+    height: 1rem;
+    line-height: .95rem;
+    border: 1px solid #A07452;
+    margin: 1.6rem 0;
+    border-radius: .5rem;
+    text-align: center;
+    font-size: .6rem;
+    color: #A07452;
+    position: relative;
+}
+.star-ul li.activestar{
+    /*width: 25%;*/
+    width: auto;
+    height: auto;
+    border: 0;
+    border-radius: 0;
+    margin: 0;
+}
+.star-ul li.activestar img{
+    display: inline-block;
+    width: 3.45rem;
+    height: 3.45rem;
+    border-radius: 50%;
+    border: .1rem solid #FFFAEE;
+    z-index: 10;
+    position: relative;
+}
+.star-ul li.activestar span{
+    width: 3.15rem;
+    height: 1.35rem;
+    display: inline-block;
+    background-size: 100% 100% !important;
+}
+.star-ul li.activestar span{
+    background: url("../img/vipicon.png");
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: .6rem;
+    color: #FFFAEE;
+    line-height: 1.48rem;
+    padding-left: 1.1rem;
+    z-index: 10;
+}
+
+.jinebox{
+    width: calc(100% - 1.5rem);
+    margin: 0 auto;
+    display: flex;
+
+}
+.jinebox div{
+    width: 50%;
+    height: 2.3rem;
+    position: relative;
+    text-align: center;
+}
+.jinebox div:first-of-type:after{
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 1.5rem;
+    background: #6F452C;
+    opacity: .27;
+    border-radius: 1px;
+    position: absolute;
+    right: 0;
+    top: .4rem;
+}
+.jinebox p{
+    color: #6F452C;
+}
+.jinebox >div p:first-of-type{
+    font-size: 1rem;
+    height: 1.4rem;
+    line-height: 1.4rem;
+}
+.jinebox >div p:last-of-type{
+    font-size: .6rem;
+    height: .85rem;
+    line-height: .85rem;
+}
+
+.select li{
+    /*display: none;*/
+}
+.sele-box{
+    width: 100%;
+}
+.select{
+    width: 100%;
+}
+.star-first img{
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    margin: 0 auto .75rem;
+}
+.star-first p{
+    text-align: center;
+    font-size: .7rem;
+    color: #818181;
+}
+
+/*卡*/
+.card-box{
+    width: 16.65rem;
+    height: 5.9rem;
+    background-size: 100% 100% !important;
+    margin: 0 auto;
+    padding: .9rem 1.2rem .2rem;
+    color: #fff;
+    position: relative;
+}
+.card-name{
+    font-size: .9rem;
+}
+.lqstatus{
+    font-size: .65rem;
+    position: absolute;
+    right: 1.2rem;
+    top: .9rem;
+    border-radius: .8rem;
+    padding: .15rem 1rem;
+    border: 1px solid #fff;
+}
+.lqstatusno{
+    background: rgba(0,0,0,.2);
+    border: 0;
+}
+.lq-tip{
+    font-size: .6rem;
+    position: absolute;
+    bottom: .9rem;
+}
+
+
+.listurl{
+    width: 6em;
+    text-align: center;
+    font-size: .7rem;
+    color: #1E99CD;
+    /*margin: 0 auto;*/
+    position: fixed;
+    bottom: 1.5rem;
+    left: calc(50% - 3em);
+}
+

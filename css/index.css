@@ -1,0 +1,25 @@
+/* 通用样式 */
+* {
+    touch-action: pan-y;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: #fff;
+}
+ul,li{
+    list-style: none;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+p{
+    color: #000;
+}
+
+.hide{
+    display: none;
+}

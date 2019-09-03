@@ -3,11 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-    <title>我的VIP</title>
+    <title>title</title>
     <link href="css/mui.min.css" rel="stylesheet"/>
-
-    <link href="css/myvip.css" rel="stylesheet"/>
-    <link href="css/index.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet"/>
     <script src="js/mui.min.js"></script>
     <script src="js/jquery.min.js"></script>
     <script>
@@ -22,85 +20,9 @@
     </script>
 </head>
 <body>
-    <div class="head">
-        <div class="tips"><span></span>星级根据每月累计交易总额决定，每月1日更新</div>
-        <div class="star-box">
-            <div class="starinfo"><span></span>星级说明</div>
-            <ul class="star-ul">
-                <li>一星</li>
-                <li>二星</li>
-                <li>三星</li>
-                <li class="activestar"><img src="img/vbg.png" alt=""><span class="vdj">二星</span></li>
-                <li>五星</li>
-            </ul>
-            <div class="jinebox">
-                <div>
-                    <p>9000.00</p>
-                    <p>上月累计交易总额(元)</p>
-                </div>
-                <div>
-                    <p>9000.00</p>
-                    <p>当前累计交易(元)</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="sele-box">
-        <ul class="select">
-            <li class="star-first">
-                <img src="img/nostart.png" alt="">
-                <p>努力提升星级，就可以领取奖励啦～</p>
-            </li>
-            <li class="hide">
-                <div class="card-box" style="background: url('img/cbg.png')">
-                    <div class="card-name">折扣券2</div>
-                    <div class="lqstatus lqstatusno">已领取</div>
-                    <div class="lq-tip">每月领取一次</div>
-                </div>
-            </li>
-            <li class="hide">
-                <div class="card-box" style="background: url('img/cbg.png')">
-                    <div class="card-name">折扣券3</div>
-                    <div class="lqstatus lqstatusno">已领取</div>
-                    <div class="lq-tip">每月领取一次</div>
-                </div>
-            </li>
-            <li class="hide">
-                <div class="card-box" style="background: url('img/cbg.png')">
-                    <div class="card-name">折扣券4</div>
-                    <div class="lqstatus lqstatusno">已领取</div>
-                    <div class="lq-tip">每月领取一次</div>
-                </div>
-                <div class="card-box" style="background: url('img/ykbg.png')">
-                    <div class="card-name">优酷VIP会员周卡</div>
-                    <div class="lqstatus lqstatusno">已领取</div>
-                    <div class="lq-tip">每月领取一次</div>
-                </div>
-            </li>
-            <li class="hide">
-                <div class="card-box" style="background: url('img/cbg.png')">
-                    <div class="card-name">折扣券5</div>
-                    <div class="lqstatus lqstatusno">已领取</div>
-                    <div class="lq-tip">每月领取一次</div>
-                </div>
-                <div class="card-box" style="background: url('img/aqibg.png')">
-                    <div class="card-name">爱奇艺VIP会员月卡</div>
-                    <div class="lqstatus lqstatusno">已领取</div>
-                    <div class="lq-tip">每月领取一次</div>
-                </div>
-            </li>
-        </ul>
-        <div class="listurl">查看VIP订单</div>
-    </div>
+
 </body>
 </html>
 <script type="text/javascript">
-    $(function () {
-        $('.star-ul').on('tap','li',function () {
-            console.log($(this).index());
-            $('.select').find('li').addClass('hide');
-            $('.select').find('li').eq($(this).index()).removeClass('hide');
-        });
 
-    })
 </script>
